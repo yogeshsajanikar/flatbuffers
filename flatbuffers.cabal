@@ -20,8 +20,8 @@ library
   include-dirs:
     cbits/includes
   exposed-modules:
-    Data.FlatBuffers.Internal.Base
-
+                  Data.FlatBuffers.Internal.Reader
+                  Data.FlatBuffers.Internal.Builder
   build-depends:
     base >= 4.7 && < 5                              
 
