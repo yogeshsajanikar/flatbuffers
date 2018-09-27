@@ -134,8 +134,8 @@ static inline uint32_t flatbuffers_disperse_type_hash(flatbuffers_thash_t type_h
 
 
 /* We have hardcoded assumptions about identifier size. */
-static_assert(sizeof(flatbuffers_fid_t) == 4, "unexpected file identifier size");
-static_assert(sizeof(flatbuffers_thash_t) == 4, "unexpected type hash size");
+//static_assert(sizeof(flatbuffers_fid_t) == 4, "unexpected file identifier size");
+//static_assert(sizeof(flatbuffers_thash_t) == 4, "unexpected type hash size");
 
 #ifdef __cplusplus
 }
